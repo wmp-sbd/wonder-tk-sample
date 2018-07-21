@@ -2,7 +2,8 @@
 - 결제 완료 페이지의 맨 아래에 아래 스크립트를 넣어주세요.
 - WonderTK.checkOut 메소드에서 전달하는 값을 *쇼핑몰에 맞게* 설정해주셔야 합니다
   * ffuid : 쇼핑몰별로 지정된 고유키
-  * conversionAmount: 사용자가 결제한 총 금액 
+  * conversionAmount: 사용자가 결제한 총 금액
+  * conversionId: 주문번호 
 
 ```html
 <!-- [시작] 원더쇼핑 CPC 전환 기록 스크립트 -->
@@ -10,7 +11,8 @@
   window.__wonderTKAsyncTasks = function() {
     WonderTK.checkOut({
       ffuid: '이곳에 FFUID를 넣어주세요.', 
-      conversionAmount:'이곳에 고객이 결제한 금액 총액을 입력해주세요.'
+      conversionAmount:'이곳에 고객이 결제한 금액 총액을 넣어주세요.',
+      conversionId:'이곳에 주문번호를 넣어주세요.'
     });
   };
 
