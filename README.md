@@ -1,7 +1,7 @@
 # 스크립트 작성 및 삽입 방법
 - 결제 완료 페이지의 맨 아래에 아래 스크립트를 넣어주세요.
 - WonderTK.checkOut 메소드에서 전달하는 값을 *쇼핑몰에 맞게* 설정해주셔야 합니다
-  * ffuid : 쇼핑몰별로 지정된 고유키 ( ffuid 발급 관련 문의처 : )
+  * ffuid : 쇼핑몰별로 지정된 고유키
   * conversionAmount: 사용자가 결제한 총 금액 
 
 ```html
@@ -34,4 +34,5 @@
 
 # 문의처
 - 스크립트 삽입에 어려움이 있을 경우 아래 연락처로 연락 부탁드립니다
-  - dsadsa@qewwqeewq.com
+  - 기술문의 : dsadsa@wemakeprice.com
+  - ffuid 발급 문의 : dsadsadsa@wemakeprice.com
