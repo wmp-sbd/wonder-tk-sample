@@ -32,6 +32,7 @@
 - 각 쇼핑몰 솔루션별 샘플 파일을 참고해주세요
   - gabia_firstmall.html : 가비아 퍼스트몰
   - makeshop.html : 메이크샵
+  - cafe24.html : 카페24
 
 
 # 문의처
