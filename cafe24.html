@@ -1,0 +1,26 @@
+<html>
+<body>
+
+<!-- 원더쇼핑 CPC 전환 기록 스크립트 시작 -->
+<script>
+  window.__wonderTKAsyncTasks = function() {
+    WonderTK.checkOut({
+      ffuid: '이곳에 FFUID를 넣어주세요.',
+      conversionAmount:'{$total_order_price}',
+      conversionId:'{$order_id}'
+    });
+  };
+
+  (function(d, s, id){
+    var js, wjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "https://tk.wonder-shopping.com/sdk/base.js";
+    wjs.parentNode.insertBefore(js, wjs);
+  }(document, 'script', 'wonder-tk-js'));
+</script>
+<!-- 원더쇼핑 CPC 전환 기록 스크립트 끝 -->
+
+</body>
+</html>
+
