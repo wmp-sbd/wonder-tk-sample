@@ -1,7 +1,7 @@
 # 스크립트 작성 및 삽입 방법
 - 결제 완료 페이지의 맨 아래에 아래 스크립트를 넣어주세요.
 - WonderTK.checkOut 메소드에서 전달하는 값을 *쇼핑몰에 맞게* 설정해주셔야 합니다
-  * ffuid : 쇼핑몰별 CPC 어드민 로그인 계정
+  * ffuid : 원더쇼핑 마케팅센터 로그인ID
   * conversionAmount: 사용자가 결제한 총 금액
   * conversionId: 주문번호 
 
@@ -10,7 +10,7 @@
 <script>  
   window.__wonderTKAsyncTasks = function() {
     WonderTK.checkOut({
-      ffuid: '이곳에 CPC 어드민 로그인 계정을 넣어주세요.', 
+      ffuid: '이곳에 원더쇼핑 마케팅센터 로그인ID를 넣어주세요.', 
       conversionAmount:'이곳에 고객이 결제한 금액 총액을 넣어주세요.',
       conversionId:'이곳에 주문번호를 넣어주세요.'
     });
