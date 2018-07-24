@@ -33,8 +33,3 @@
   - gabia_firstmall.html : 가비아 퍼스트몰
   - makeshop.html : 메이크샵
   - cafe24.html : 카페24
-
-
-# 문의처
-- 스크립트 삽입에 어려움이 있을 경우 아래 연락처로 연락 부탁드립니다
-  - 기술문의 : dsadsa@wemakeprice.com
